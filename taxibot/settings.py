@@ -108,4 +108,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 from taxibot.local import *
 
-AUTH_USER_MODEL = 'coreapp.User'
+AUTH_USER_MODEL = 'coreapp.CustomUser'
