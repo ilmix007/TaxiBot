@@ -28,7 +28,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'coreapp'
+    'coreapp',
+    # 'taxiapp'
 ]
 
 MIDDLEWARE = [
@@ -106,3 +107,5 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 from taxibot.local import *
+
+AUTH_USER_MODEL = 'coreapp.User'
